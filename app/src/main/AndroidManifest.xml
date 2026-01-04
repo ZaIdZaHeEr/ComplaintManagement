@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ComplaintManagement">
+
+        <!-- Splash Screen (Launcher) -->
+        <activity
+            android:name=".activities.SplashActivity"
+            android:exported="true"
+            android:theme="@style/Theme.ComplaintManagement.Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Login Activity -->
+        <activity
+            android:name=".activities.LoginActivity"
+            android:exported="false" />
+
+        <!-- Signup Activity -->
+        <activity
+            android:name=".activities.SignupActivity"
+            android:exported="false" />
+
+        <!-- Admin Login Activity -->
+        <activity
+            android:name=".activities.AdminLoginActivity"
+            android:exported="false" />
+
+        <!-- Forgot Password Activity -->
+        <activity
+            android:name=".activities.ForgotPasswordActivity"
+            android:exported="false" />
+
+        <!-- User Home Activity -->
+        <activity
+            android:name=".activities.UserHomeActivity"
+            android:exported="false" />
+
+        <!-- Add Complaint Activity -->
+        <activity
+            android:name=".activities.AddComplaintActivity"
+            android:exported="false" />
+
+        <!-- Complaint Detail Activity -->
+        <activity
+            android:name=".activities.ComplaintDetailActivity"
+            android:exported="false" />
+
+        <!-- ✅ FIXED: AdminHomeActivity (REMOVED AdminDashboardActivity) -->
+        <activity
+            android:name=".activities.AdminHomeActivity"
+            android:exported="false" />
+
+    </application>
+
+</manifest>

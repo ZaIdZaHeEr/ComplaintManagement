@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "330596960836",
+    "firebase_url": "https://complaintmanagement-f815c-default-rtdb.firebaseio.com",
+    "project_id": "complaintmanagement-f815c",
+    "storage_bucket": "complaintmanagement-f815c.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:330596960836:android:a2722f6d953b9c3a9c8a11",
+        "android_client_info": {
+          "package_name": "com.zaid.comlaintmanagement2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-3YWUtNebwskgH9p-n8Wo4_D9Yx1vn7E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
